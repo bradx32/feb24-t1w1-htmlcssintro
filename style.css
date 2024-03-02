@@ -1,0 +1,52 @@
+/* Lots of different font types, need to look at what will work best for your situation for mobile/desktop/tablet reading */
+p {
+    font-size: 2dvb;
+}
+
+em > strong >p{
+    font-size: 15px;
+}
+
+img {
+    height: 10vw;
+}
+
+h3 {
+    color: red;
+    background-color: darkseagreen;
+}
+
+#bananas{
+    color: blue;
+}
+.coolClass{
+    color: hotpink;
+}
+
+h1 {
+    color: blue;
+    background-color: rgb(206, 214, 206);
+}
+
+h1 {
+    color: #33cef5;
+}
+
+li {
+    background-color: tan0;
+}
+/* nth-child
+2nd-child
+1st-child
+n is just a placeholder for a number */
+li:nth-child(3n+1){
+    background-color: darkseagreen;
+}
+
+li:nth-child(even){
+    background-color: lightgrey;
+}
+
+li::marker{
+    color:blue;
+}

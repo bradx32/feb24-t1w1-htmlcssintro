@@ -5,11 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--Style tak or internal styling-->
+    <style>
+        h3 {
+            color: red;
+        }
+    </style>
+    <!--External stylesheet, needs to exist in project as a file-->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Brad was here!</h1>
-    <h3>Making websites is cool!</h3>
+    <!-- Ctrl + / auto generates a comment for the selected line! -->
+    <!--CSS = the 'style'ing-->
+    <h1 style="color:blue">Brad was here!</h1>
+    <h3 id="bananas">Making websites is cool!</h3>
+    <h3 class="coolClass">Another heading</h3>
+    <h3 class="coolClass">Another heading</h3>
+    <h3 class="coolClass">Another heading</h3>
+
     <p>Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit</strong>. Aperiam asperiores <b>repudiandae
             ad</b> sunt vero voluptatibus ea, <em>expedita</em> recusandae ab sequi beatae soluta cumque eum. Repellat
         vero quasi ea fuga maiores?
@@ -21,7 +35,25 @@
                 eius asperiores.
             </p>
         </strong></em>
-    <img src="./SlowlySlowlyBandCover.jpg" alt="Image failed to load, lol."/>
+    <img src="./SlowlySlowlyBandCover.jpg" alt="SlowlySlowly band cover photo."/>
+    <p>Favourite foods</p>
+    <ul>
+        <li>
+            Nachos
+        </li>
+        <li>
+            KFC
+        </li>
+        <li>
+            Pizza
+        </li>
+        <li>
+            Ramen
+        </li>
+        <li>
+            Sushi
+        </li>
+    </ul>
 </body>
 
 </html>
